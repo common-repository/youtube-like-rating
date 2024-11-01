@@ -1,0 +1,105 @@
+div.up-like-active {
+	/*color:#5ebc40; */
+	margin-top:10px;
+	float:left;
+	margin-left:5px;
+}
+div.up-like{
+	margin-left:5px;
+	color: #929292; 
+	margin-top:10px;
+	float:left;
+}
+div.down-like{
+	margin-left:5px;
+	color: #929292; 
+	margin-top:10px;
+	float:left;
+}
+div.down-like-active{
+	/*color:red; */
+	margin-left:5px;
+	margin-top:10px;
+	float:left;
+}
+
+div.rating-button{
+	text-decoration:inline;
+	float: left;
+	/*margin-left:10px;*/
+	width: 87px;
+	padding-left:3px;
+	padding-right:3px;
+	font-weight:bold;
+	font-size:11px;
+}
+
+div.rating-button-inactive{
+	text-decoration:inline;
+	float: left;
+	margin-left:10px;
+	padding-left:3px;
+	padding-right:3px;
+	font-weight:bold;
+	font-size:11px;
+}
+
+div.inactive-panel{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+div.rating-button:hover{
+	background-color:#e9e9e9;
+	background-image:linear-gradient(tobotom, #f8f8f8 0px, #EEEEEE 100%);
+	border: 1px solid transparent;
+	border-radius: 2px 2px 2px 2px;
+    	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+	font-size:bold;
+	border-color:#b9b9b9;-moz-box-shadow:inset 0 1px 0 #ddd;-ms-box-shadow:inset 0 1px 0 #ddd;-webkit-box-shadow:inset 0 1px 0 #ddd;
+	box-shadow:inset 0 1px 0 #ddd
+}
+div.rating-button img{
+	border-style: none !important;
+	border:0;!important;
+	border-style: none !important;
+	float:left !important;
+	box-shadow:none !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+div.rating-button-inactive img{
+	border-style: none !important;
+	border:0;!important;
+	border-style: none !important;
+	float:left !important;
+	box-shadow:none !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+.thumb-up-button{
+	float:left;
+}
+.thumb-down-button{
+	float:left;
+}
+.thumb-up-count{
+	padding-top:7px;
+}
+.thumb-down-count{
+	padding-top:7px;
+}
+div.post-vote-count{
+	float:right;
+}
+div.post-vote-count img {
+	border-style: none !important;
+	border:0;!important;
+	border-style: none !important;
+	float:right !important;
+	box-shadow:none !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
